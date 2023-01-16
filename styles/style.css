@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+
+}
+.container{
+    width: 100%;
+    height: auto;  
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/* navigation Bar  */
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 78%;
+    margin: 0 auto;
+    
+}
+.nav ul{
+    float: right;
+}
+.nav li{
+    display: inline-block;
+    list-style: none
+}
+.nav li a{
+    font-size: 18px;
+    padding: 0px 30px;
+    color: black;
+    text-decoration: none;
+}
+.hero-section {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.text{
+    text-align: center;
+    padding-top: 30px;
+}
+.text h2{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-bottom: 10px;
+    
+}
+.text p{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.btn{
+    background-color:#FF900E;
+    border: 2px #FF900E;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 20px;
+    font-size: 16px;
+    margin: 4px 2px;   
+    margin-bottom: 50px;
+}
+
+.banner-img-1 img{
+    width: 1200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.banner{
+    /* width: 1250px; */
+    height: auto;
+    margin-left: 80px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 50px;
+    padding: 50px 0;
+}
+.main{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin-left: 150px;
+}
+
+.second-section{
+    width: 100%;
+     height: 100%; 
+   
+}
+.section{
+    width: 50%;
+    float: right;
+    margin: auto 0;
+
+}
+.section h2 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+.course{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    
+}
+.section-title{
+    margin-bottom: 10px;
+}
+.section p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    line-height: 1.3em;
+}
+.banner-img img{
+    width: 250px;
+}
+.paragraph{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15px;
+}
+.grid-area{
+    /* background-color: #ffffff52;
+    box-shadow: 0px 0px 10px rgb(0 0 0 / 15%); */
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+     border-radius: 8px;
+    padding: 20px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.featured-section {
+    padding: 30px 15px;
+}
+.button{
+    background-color: #FF900E;
+    border: 2px #FF900E;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 20px;
+    font-size: 16px;
+    margin: 4px 2px;
+    margin-bottom: 50px;
+}
+.content{
+    width: 100%;
+    height: 300px;
+}
+
+.facts-section{
+    padding-left: 175px;
+    margin: 30px 0px;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box-img{
+    border: 2px solid red;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    padding-top: 20px;
+    border-radius: 5px;
+}
+.third-section{
+    text-align: center;
+}
+.footer-area{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0;
+}
+.green img{
+    width: 100px;
+}
+.footer{
+    text-align: center;
+    background: #FFF4E7;
+    border-radius: 8px;
+}
+@media only screen and (max-width: 600px) {
+    .banner-img-1 img {
+        width: 100%;
+    }
+    .banner {
+        /* width: 1250px; */
+        height: auto;
+        margin-left: 15px;
+        display: grid;
+        grid-template-columns: inherit;
+        grid-column-gap: 50px;
+        padding: 50px 0;
+    }
+    .banner-img img {
+        width: 150px;
+    }
+    .main {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+        margin-left: 0px;
+    }
+    .banner-img img {
+        width: 160px;
+    }
+    .section {
+        width: 100%;
+        float: right;
+        margin: 20px 0;
+    }
+    .course {
+        display: block;
+    }
+    .facts-section {
+        padding-left: 10px;
+        margin: 30px 0px;
+    }
+
+}
